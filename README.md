@@ -19,7 +19,7 @@ In our code, we have provided detailed comments. Below are the specific meanings
  - `beam_num` beam number.
 
 ## Date set generation
-In our code, we have provided the data set for test. If you want to reproduce the data set, please follow these steps:
+In `./eval_dataset`, we have provided the data set for test. If you want to reproduce the data set, please follow these steps:
 
 ### Outdoor 1
  1. Enter the folder `./DeepMIMO_O1_28_matlab`
