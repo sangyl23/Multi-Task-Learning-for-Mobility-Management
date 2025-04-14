@@ -19,7 +19,9 @@ In our code, we have provided detailed comments. Below are the specific meanings
  - `beam_num` beam number.
 
 ## Trained model download, Data set download, and Date set generation
-In Tsinghua Cloud `./eval_dataset`, we have provided the data set for test. If you want to reproduce the data set, please follow these steps:
+Please download trained model and eval_dataset from Tsinghua Cloud: https://cloud.tsinghua.edu.cn/d/927537f025c54ea5af3d/. Then, extract them in the corresponding `./trained_model` and `./eval_dataset` folder.  
+
+If you want to reproduce the data set, please follow these steps:
 
 ### Outdoor 1
  1. Enter the folder `./DeepMIMO_O1_28_matlab`
