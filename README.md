@@ -3,7 +3,7 @@ This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobili
 
 ## Reproduce the experimental result
 
-In our experiments, in addition to the simulations described in the original letter, we also provide simulations for different UE velocities, different signal-to-noise ratios (SNRs) of the beam received signals, different millimeter-wave scenarios, and different motion forms.
+In our experiments, in addition to the simulations described in the original letter, we also provide the simulations for different UE velocities, different signal-to-noise ratios (SNRs) of the beam received signals, different millimeter-wave scenarios, and different motion forms.
 
 * For the described in the original letter, please run
 
