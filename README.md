@@ -76,15 +76,19 @@ Note: Due to Cloud's storage limitations, we can only upload a single trained mo
 
 ## Clarification of theoretical justification for loss descending rate-based weighting
 
-<p align="center">
-<img align="middle" src="./our_results/cosine_similarity.png" alt="Cosine similarity between multi-task gradients" width="500"  />
-</p>
-
 To clarify theoretical justification for the proposed loss descending rate-based weighting, we investigate cosine similarity between multi-task gradients during traning process, which can be written as
 
 <p align="center">
 <img align="middle" src="./our_results/cosine_similarity_equation.png" alt="Cosine similarity between multi-task gradients" width="450"  />
 </p>
+
+Clearly, when cosine similarity is a positive value, multi-task gradients are well aligned and joint learning can achieve performance gains. Otherwise, multi-task gradients are in conflict and joint learning may result in performance degradation.
+
+<p align="center">
+<img align="middle" src="./our_results/cosine_similarity.png" alt="Cosine similarity between multi-task gradients" width="500"  />
+</p>
+
+The above figure shows cosine similarity under the uniform weighting. It can be seen that consine similarity maintains a positive value during the first 15 epochs, which verifies that the gradients of different tasks in this stage are well aligned due to the inter-task correlations. By contrast, during the remaining 85 epochs, consine similarity oscillates around zero and may exhibit negative values. It validates that the gradients of remaining BS prediction and beam tracking tasks have almost no contributions to the sufficient optimization of positioning task in this stage, which confirms that multi-task training is stuck in the task-specific optima.
 
 ## Reference
 
