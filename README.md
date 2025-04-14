@@ -5,7 +5,7 @@ This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobili
  - `eval_dataset` test data set folder.
  - `trained_model` trained model folder.
  - `dataloader_MTL.py` code for data loading.
- - `model_MTL.py` code containing all function templates for models. Specifically, `Bs`, `bt`, and `Up` represent the single-task learning models for BS prediction, beam tracking, and UE positioning, respectively. `Vanilla` denotes the vanilla multi-task learning model. `Bs2bt2Up` is the single-cascaded multi-task learning model. `Up2bt2Bs` is the inversed single-cascaded multi-task learning model. 
+ - `model_MTL.py` code containing all function templates for models. Specifically, `Bs`, `bt`, and `Up` represent the single-task learning models for BS prediction, beam tracking, and UE positioning, respectively. `Vanilla` denotes the vanilla multi-task learning model. `Bs2bt2Up` is the single-cascaded multi-task learning model. `Up2bt2Bs` is the inversed single-cascaded multi-task learning model. `Dual_Cascaded` is the proposed dual-cascaded multi-task learning model.
 
 
 ## Reproduce the experimental result
