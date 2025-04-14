@@ -74,6 +74,10 @@ The visualization figures will be saved to `./results`.
 
 Note: Due to Cloud's storage limitations, we can only upload a single trained model. The simulation results in the original letter were averaged over multiple models, which may lead to minor numerical differences between the original letter and this pytorch implement. However, this does not affect the conclusions drawn in the original letter.
 
+<p align="center">
+<img align="middle" src="./our_results/cosine_similarity.png" alt="Cosine similarity between multi-task gradients" width="500" height="250" />
+</p>
+
 ## Reference
 
 [1] A. Alkhateeb, ``DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications,'' in *Proc. ITA*, Feb. 2019, pp. 1--8.
