@@ -1,9 +1,9 @@
 # multi task learning for mobility management
-This is the code for our IEEE WCL paper ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems''
+This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems''
 
-## Reproduce the experimental result for interpolating continuous-time function
+## Reproduce the experimental result
 
-Run the following command, where `cc` controls the type of spiral, `0` for the first type, `1` for the second type, `2` for mixture (see Appendix C.1.1 for more information).
+In our experiments, in addition to the simulations described in the original letter, we also provide simulations for different millimeter-wave scenarios, different motion forms, different signal-to-noise ratios of the beam received signals, and different user velocities.
 
 * For Neural ODE, please run
 
