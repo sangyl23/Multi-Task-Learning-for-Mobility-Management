@@ -52,5 +52,5 @@ python eval_MTL.py --experiment_type Outdoor_Blockage_trainingsamples
 
 The visualization figures will be saved to `./results`. 
 
-Note: Due to GitHub's storage limitations, we can only upload a single trained model. The simulation results in the original letter were averaged over multiple models, which may lead to minor numerical differences in the experimental results. However, this does not affect the conclusions drawn in the original letter.
+Note: Due to GitHub's storage limitations, we can only upload a single trained model. The simulation results in the original letter were averaged over multiple models, which may lead to minor numerical differences between the original letter and this pytorch implement. However, this does not affect the conclusions drawn in the original letter.
 
