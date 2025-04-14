@@ -90,6 +90,12 @@ Clearly, when cosine similarity is a positive value, multi-task gradients are we
 
 The above figure shows cosine similarity under the uniform weighting. It can be seen that consine similarity maintains a positive value during the first 15 epochs, which verifies that the gradients of different tasks in this stage are well aligned due to the inter-task correlations. By contrast, during the remaining 85 epochs, consine similarity oscillates around zero and may exhibit negative values. It validates that the gradients of remaining BS prediction and beam tracking tasks have almost no contributions to the sufficient optimization of positioning task in this stage, which confirms that multi-task training is stuck in the task-specific optima.
 
+To reproduce the above figure, please reproduce the new data set for training, and run
+
+```
+python cosine_similarity.py
+```
+
 ## Reference
 
 [1] A. Alkhateeb, ``DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications,'' in *Proc. ITA*, Feb. 2019, pp. 1--8.
