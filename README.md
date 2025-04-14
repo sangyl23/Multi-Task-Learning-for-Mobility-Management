@@ -54,3 +54,15 @@ The visualization figures will be saved to `./results`.
 
 Note: Due to GitHub's storage limitations, we can only upload a single trained model. The simulation results in the original letter were averaged over multiple models, which may lead to minor numerical differences between the original letter and this pytorch implement. However, this does not affect the conclusions drawn in the original letter.
 
+## Reference
+
+You are more than welcome to cite our paper:
+```
+@inproceedings{sang2025dualcascadedmtl,
+  title={Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems},
+  author={Yiliang Sang, Yingshuang Bai, Ke Ma, Chen Sun, Pengyu Wang, Lebin Yao, and Zhaocheng Wang},
+  booktitle={IEEE WCL},
+  year={2025}
+}
+```
+
