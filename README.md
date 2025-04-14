@@ -74,6 +74,8 @@ Note: Due to GitHub's storage limitations, we can only upload a single trained m
 
 ## Reference
 
+[1] A.~Alkhateeb, ``DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications,'' in \emph{Proc. ITA}, Feb.~2019, pp.~1--8.
+
 You are more than welcome to cite our paper:
 ```
 @inproceedings{sang2025dualcascadedmtl,
