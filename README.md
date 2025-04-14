@@ -1,4 +1,4 @@
-# multi task learning for mobility management
+# Multi-task learning for mobility management
 This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems''.
 
 ## File Description
