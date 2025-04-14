@@ -1,6 +1,15 @@
 # multi task learning for mobility management
 This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems''.
 
+## File Description
+
+#### Keyword arguments:
+ - `rtol` Relative tolerance.
+ - `atol` Absolute tolerance.
+ - `method` One of the solvers listed below.
+ - `options` A dictionary of solver-specific options, see the [further documentation](FURTHER_DOCUMENTATION.md).
+
+
 ## Reproduce the experimental result
 
 In our experiments, in addition to the simulations described in the original letter, we also provide the simulations for different UE velocities, different signal-to-noise ratios (SNRs) of the beam received signals, different millimeter-wave scenarios, and different motion forms.
