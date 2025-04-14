@@ -80,6 +80,8 @@ Note: Due to Cloud's storage limitations, we can only upload a single trained mo
 <img align="middle" src="./our_results/cosine_similarity.png" alt="Cosine similarity between multi-task gradients" width="500" height="300" />
 </p>
 
+To clarify theoretical justification for the proposed loss descending rate-based weighting, we investigate cosine similarity between multi-task gradients during traning process.
+
 ## Reference
 
 [1] A. Alkhateeb, ``DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications,'' in *Proc. ITA*, Feb. 2019, pp. 1--8.
