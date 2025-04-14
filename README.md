@@ -18,10 +18,10 @@ In our code, we have provided detailed comments. Below are the specific meanings
  - `BS_num` BS number.
  - `beam_num` beam number.
 
-## Trained model download, Data set download, and Date set generation
-Please download trained model and eval_dataset from Tsinghua Cloud: https://cloud.tsinghua.edu.cn/d/927537f025c54ea5af3d/. Then, extract them in the corresponding `./trained_model` and `./eval_dataset` folder.  
+## Trained model download, Test data set download, and New date set generation
+Please download trained model and test data set from Tsinghua Cloud: https://cloud.tsinghua.edu.cn/d/927537f025c54ea5af3d/. Then, extract them in the corresponding `./trained_model` and `./eval_dataset` folder.  
 
-If you want to reproduce the data set, please follow these steps:
+If you want to reproduce the new data set, please follow these steps:
 
 ### Outdoor 1
  1. Enter the folder `./DeepMIMO_O1_28_matlab`
