@@ -3,18 +3,36 @@ This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobili
 
 ## Reproduce the experimental result
 
-In our experiments, in addition to the simulations described in the original letter, we also provide simulations for different millimeter-wave scenarios, different motion forms, different signal-to-noise ratios of the beam received signals, and different user velocities.
+In our experiments, in addition to the simulations described in the original letter, we also provide simulations for different UE velocities, different signal-to-noise ratios (SNRs) of the beam received signals, different millimeter-wave scenarios, and different motion forms.
 
-* For Neural ODE, please run
-
-```
-python spiral.py --adjoint=1 --visualize=1 --niters=10000 --model_name Neural_ODE --noise_a=0.02 --cc=2 --train_dir ./sprial_neuralode
-```
-
-* For ContiFormer, please run
+* For the described in the original letter, please run
 
 ```
-python spiral.py --adjoint=1 --visualize=1 --niters=10000 --model_name Contiformer --noise_a=0.02 --cc=2 --train_dir ./spiral_contiformer
+python eval_MTL.py --experiment_type O1_trainingsamples
+```
+
+* For different UE velocities, please run
+
+```
+python eval_MTL.py --experiment_type O1_velocity
+```
+
+* For different signal-to-noise ratios (SNRs) of the beam received signals, please run
+
+```
+python eval_MTL.py --experiment_type O1_snr
+```
+
+* For different motion forms, we consider UE performs the 2D spiral motion, and you can run
+
+```
+python eval_MTL.py --experiment_type O1_motion_form
+```
+
+* For different millimeter-wave scenarios, we consider a more complexed millimeter-wave scenarios named ``Outdoor1 Blockage'' [1], and you can run
+
+```
+python eval_MTL.py --experiment_type Outdoor_Blockage_trainingsamples
 ```
 
 The results and visualization data will be saved to `./sprial_neuralode` and `./spiral_contiformer`. 
