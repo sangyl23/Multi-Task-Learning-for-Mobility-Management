@@ -1,5 +1,5 @@
 # multi task learning for mobility management
-This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems''
+This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems''.
 
 ## Reproduce the experimental result
 
@@ -35,6 +35,5 @@ python eval_MTL.py --experiment_type O1_motion_form
 python eval_MTL.py --experiment_type Outdoor_Blockage_trainingsamples
 ```
 
-The results and visualization data will be saved to `./sprial_neuralode` and `./spiral_contiformer`. 
+The visualization figures will be saved to `./results`. 
 
-All the experimental results are averaged, i.e., `27, 42, 1024` (the same random seeds for other tasks), use `--seed` to set the seed.
