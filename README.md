@@ -77,13 +77,13 @@ Note: Due to Cloud's storage limitations, we can only upload a single trained mo
 ## Clarification of theoretical justification for loss descending rate-based weighting
 
 <p align="center">
-<img align="middle" src="./our_results/cosine_similarity.png" alt="Cosine similarity between multi-task gradients" width="500" height="300" />
+<img align="middle" src="./our_results/cosine_similarity.png" alt="Cosine similarity between multi-task gradients" width="500"  />
 </p>
 
 To clarify theoretical justification for the proposed loss descending rate-based weighting, we investigate cosine similarity between multi-task gradients during traning process, which can be written as
 
 <p align="center">
-<img align="middle" src="./our_results/cosine_similarity_equation.png" alt="Cosine similarity between multi-task gradients" width="450" height="100" />
+<img align="middle" src="./our_results/cosine_similarity_equation.png" alt="Cosine similarity between multi-task gradients" width="450"  />
 </p>
 
 ## Reference
