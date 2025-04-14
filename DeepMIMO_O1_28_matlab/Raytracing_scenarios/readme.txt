@@ -1,0 +1,1 @@
+please extract the ray-tracing data set from https://www.deepmimo.net/scenarios/o1-scenario/ in this folder 
