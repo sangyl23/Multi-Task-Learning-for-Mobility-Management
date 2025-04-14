@@ -18,9 +18,23 @@ In our code, we have provided detailed comments. Below are the specific meanings
  - `BS_num` BS number.
  - `beam_num` beam number.
 
+## Date set generation
+In our code, we have provided the data set for test. If you want to reproduce the data set, please follow these steps:
+
+### Outdoor 1 
+ 1. Download the original ray-tracking dataset from https://www.deepmimo.net/scenarios/o1-scenario/.
+ 2. Run `Generator_Originaldata.mat`.
+ 3. If you want UE performs the rectilinear motion, run `Generator_MTL.mat`. If you want UE performs the spiral motion, run `Generator_MTL_spiral_2D.mat`.
+ You can adjust UE velocities and signal-to-noise ratios (SNRs) of the beam received signals in `Generator_MTL.mat`.
+
+### Outdoor 1 
+ 1. Download the original ray-tracking dataset from https://www.deepmimo.net/scenarios/o1-scenario/.
+ 2. Run `Generator_Originaldata.mat`.
+ 3. If you want UE performs the rectilinear motion, run `Generator_MTL.mat`. If you want UE performs the spiral motion, run `Generator_MTL_spiral_2D.mat`.
+
 ## Reproduce the experimental result
 
-In our experiments, in addition to the simulations described in the original letter, we also provide the simulations for different UE velocities, different signal-to-noise ratios (SNRs) of the beam received signals, different millimeter-wave scenarios, and different motion forms.
+In our experiments, in addition to the simulations described in the original letter, we also provide the simulations for different UE velocities, different SNRs of the beam received signals, different millimeter-wave scenarios, and different motion forms.
 
 * For the simulations described in the original letter, please run
 
