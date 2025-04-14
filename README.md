@@ -10,7 +10,7 @@ This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobili
  - `eval_MTL.py` eval different models.
 
 ## Keyword arguments
-In our code, we have provided detailed comments. Below are the specific meanings of some keywords：
+In our code, we have provided detailed comments. Below are the specific meanings of some keywords:
  - `b` batch size.
  - `his_len` historical sequence length.
  - `BS_num` BS number.
