@@ -22,13 +22,13 @@ In our code, we have provided detailed comments. Below are the specific meanings
 In our code, we have provided the data set for test. If you want to reproduce the data set, please follow these steps:
 
 ### Outdoor 1 
- 1. Download the original ray-tracking dataset from https://www.deepmimo.net/scenarios/o1-scenario/ [1].
+ 1. Download the original ray-tracking dataset from https://www.deepmimo.net/scenarios/o1-scenario/ [1], and extract it in `Raytracing_scenarios`.
  2. Run `Generator_Originaldata.m`.
  3. If you want UE performs the rectilinear motion, run `Generator_MTL.m`. If you want UE performs the spiral motion, run `Generator_MTL_spiral_2D.m`.
  You can adjust UE velocities and signal-to-noise ratios (SNRs) of the beam received signals in `Generator_MTL.m`.
 
 ### Outdoor 1 Blockage
- 1. Download the original ray-tracking dataset from https://www.deepmimo.net/scenarios/o1-blockage-scenario/ [1].
+ 1. Download the original ray-tracking dataset from https://www.deepmimo.net/scenarios/o1-blockage-scenario/ [1], and extract it in `Raytracing_scenarios`.
  2. Run `Generator_Originaldata.m`.
  3. Run `Generator_MTL.m`.
 
