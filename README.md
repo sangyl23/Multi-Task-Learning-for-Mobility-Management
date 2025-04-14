@@ -17,7 +17,7 @@ python eval_MTL.py --experiment_type O1_trainingsamples
 python eval_MTL.py --experiment_type O1_velocity
 ```
 
-* For different signal-to-noise ratios (SNRs) of the beam received signals, please run
+* For different SNRs of the beam received signals, please run
 
 ```
 python eval_MTL.py --experiment_type O1_snr
