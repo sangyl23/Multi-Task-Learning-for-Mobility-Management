@@ -4,10 +4,10 @@ This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobili
 ## File Description
 
 #### Keyword arguments:
- - `rtol` Relative tolerance.
- - `atol` Absolute tolerance.
- - `method` One of the solvers listed below.
- - `options` A dictionary of solver-specific options, see the [further documentation](FURTHER_DOCUMENTATION.md).
+ - `eval_dataset` test data set folder.
+ - `trained_model` trained model folder.
+ - `dataloader_MTL.py` code for data loading.
+ - `model_MTL.py` code containing all function templates for models. Specifically, `Bs`, `bt`, and `Up` represent the single-task learning models for BS prediction, beam tracking, and UE positioning, respectively. `Vanilla` denotes vanilla multi-task learning model. `Vanilla` denotes vanilla multi-task learning model
 
 
 ## Reproduce the experimental result
