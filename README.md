@@ -98,6 +98,20 @@ To reproduce the above figure, please reproduce the new data set for training, a
 python cosine_similarity.py
 ```
 
+If you want to train models with the uniform weighting, please run
+
+```
+python train_MTL.py --training_method uniform_weighting
+```
+
+If you want to train models with the loss descending rate-based weighting, please run
+
+```
+python train_MTL.py --training_method loss_descending_rate_based_weighting
+```
+
+
+
 ## Reference
 
 [1] A. Alkhateeb, ``DeepMIMO: A generic deep learning dataset for millimeter wave and massive MIMO applications,'' in *Proc. ITA*, Feb. 2019, pp. 1--8.
