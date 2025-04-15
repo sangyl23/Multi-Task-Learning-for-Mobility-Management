@@ -98,13 +98,15 @@ To reproduce the above figure, please reproduce the new data set for training, a
 python cosine_similarity.py
 ```
 
-If you want to train models with the uniform weighting, please run
+If you want to train models, you need to reproduce the new data set for training. Then, revise the file path in `train_MTL.py` to corresponding path. Next,
+
+1. If you want to train models with the uniform weighting, please run
 
 ```
 python train_MTL.py --training_method uniform_weighting
 ```
 
-If you want to train models with the loss descending rate-based weighting, please run
+2. If you want to train models with the loss descending rate-based weighting, please run
 
 ```
 python train_MTL.py --training_method loss_descending_rate_based_weighting
