@@ -98,7 +98,7 @@ To reproduce the above figure, please reproduce the new data set for training, a
 python cosine_similarity.py
 ```
 
-If you want to train models, you need to reproduce the new data set for training. Then, revise the file path in `train_MTL.py` to corresponding path. Next,
+If you want to train models, you need to reproduce the new data set for training. Then, revise the file path in `train_MTL.py` (row 171 and 172) to corresponding path. Next,
 
 1. If you want to train models with the uniform weighting, please run
 
