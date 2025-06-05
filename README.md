@@ -1,5 +1,5 @@
 # Multi-task learning for mobility management
-This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems''.
+This is the code for our IEEE WCL ``Dual-Cascaded Multi-Task Learning for Mobility Management in mmWave Wireless Systems'' [https://ieeexplore.ieee.org/document/11005436].
 
 ## File Description
  - `./DeepMIMO_O1_28_matlab` containing matlab code for generating Outdoor 1 dataset.
